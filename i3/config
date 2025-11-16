@@ -56,8 +56,12 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
+# Screenshot
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 # lock
 bindsym $mod+Shift+x exec --no-startup-id "betterlockscreen -l"
+# file manager
+bindsym $mod+Shift+f exec --no-startup-id thunar
 
 # kill focused window
 bindsym $mod+w kill
