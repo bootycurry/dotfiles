@@ -84,6 +84,7 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 bindsym Mod1+Tab focus next
 bindsym Mod1+Shift+Tab focus prev
+bindsym Mod1+space exec --no-startup-id "rofi -show window -show-icons"
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
