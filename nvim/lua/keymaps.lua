@@ -18,6 +18,12 @@ map("n", "<leader>w", ":w<CR>")
 map("n", "<leader>q", ":q<CR>")
 map("i", "jk", "<C-c>")
 
+-- Increment number
+vim.keymap.set("n", "<leader>+", "<C-a>")
+
+-- Decrement number
+vim.keymap.set("n", "<leader>-", "<C-x>")
+
 
 -----------------------------------------------------
 -- WINDOW SPLITS
