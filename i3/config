@@ -63,7 +63,7 @@ bindsym $mod+Shift+x exec --no-startup-id "betterlockscreen -l"
 # file manager
 bindsym $mod+Shift+f exec --no-startup-id thunar
 #browser
-bindsym $mod+Shift+b exec --no-startup-id brave
+bindsym $mod+Shift+b exec --no-startup-id librewolf
 
 # kill focused window
 bindsym $mod+w kill
