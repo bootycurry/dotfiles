@@ -31,6 +31,10 @@ vim.keymap.set("n", "<leader>-", "<C-x>")
 map("n", "<leader>sv", ":vsplit<CR>")   -- vertical split
 map("n", "<leader>sh", ":split<CR>")    -- horizontal split
 map("n", "<leader>sc", ":close<CR>")    -- close split
+map("n", "<leader>T", function()
+  vim.cmd("botright 15split | terminal")
+  vim.cmd("startinsert")
+end)
 
 -- Move between splits
 map("n", "<C-h>", "<C-w>h")
